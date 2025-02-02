@@ -1,0 +1,66 @@
+/* styles.css */
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 26px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.nav-links .active {
+    border-bottom: 2px solid white;
+}
+
+/* .hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('background.jpg') no-repeat center center/cover;
+} */
+
+.search-box {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.trip-options button, .search-fields input, .explore-btn {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-fields {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-fields input {
+    background: #444;
+    color: white;
+}
+
+.swap {
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+}
